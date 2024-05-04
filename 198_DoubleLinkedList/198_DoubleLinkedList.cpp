@@ -148,7 +148,7 @@ void traverse()
         cout << "\nList is empty" << endl;
     else
     {
-        cout << "\nRecords in ascending order of roll number area:" << endl;
+        cout << "\nRecords in ascending order of roll number area: " << endl;
         Node* currentNode = START;  // step 1
         while (currentNode != NULL) // step 2
         {
@@ -164,7 +164,7 @@ void revtraverse()
         cout << "\nList is empty" << endl;
     else
     {
-        cout << "\nRecords is descending order of roll number are:" << endl;
+        cout << "\nRecords is descending order of roll number are: " << endl;
         Node* currentNode = START;
         while (currentNode->next != NULL)
             currentNode = currentNode->next;
@@ -193,8 +193,8 @@ void searchData()
     else
     {
         cout << "\nRecord found" << endl;
-        cout << "\nRoll number:" << curr->noMhs << endl;
-        cout << "\nName" << curr->name << endl;
+        cout << "\nRoll number: " << curr->noMhs << endl;
+        cout << "\nName: " << curr->name << endl;
     }
 }
 
@@ -239,6 +239,6 @@ int main()
                 break;
             }
         }
-       
+        
     }
 }
