@@ -157,3 +157,16 @@ void traverse()
         }
     }
 }
+
+void revtraverse()
+{
+    if (listempty())
+        cout << "\nList is empty" << endl;
+    else
+    {
+        cout << "\nRecords is descending order of roll number are:" << endl;
+        Node* currentNode = START;
+        while (currentNode->next != NULL)
+            currentNode = currentNode->next;
+    }
+}
